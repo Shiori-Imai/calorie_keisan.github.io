@@ -106,8 +106,16 @@ header a:hover{
 
 .shinki{
   background-color: #239b76;
+  box-shadow: 0px 6px darkgreen;
+  opacity: 0.8;
   width: 200px;
   margin-bottom: 30px;
+}
+
+.shinki:active{
+  position: relative;
+  top: 6px;
+  box-shadow: none;
 }
 
 footer{
