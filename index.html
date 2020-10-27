@@ -5,16 +5,31 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>カロリー計算</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
 
     <header>
-    <h1>カロリーを計算しよう！</h1>
-    <a href="#">ログイン</a>
+    <h1>カロリー計算サイト</h1>
+    <a id = "login-show" class = "login" href="#">ログイン</a>
     </header>
 
+    <div id ="main-modal" class="modal">
+    <div id = "login-modal" class ="login-form">
+      <h2>ログインフォーム</h2>
+      <form class="" action="index.html" method="post">
+      <input class ="inform" type="text" placeholder="メールアドレス">
+      <input class ="inform" type="text" placeholder="パスワード">
+      <a id ="login-btn" class ="btn shinki" href="#">ログイン</a>
+      </form>
+      </div>
+    </div>
+
       <div class="main">
+
         <div class="haikei">
+          <h1>Let's carlculate calories!</h1>
+          <h2>but...no calorie no life...</h2>
         </div>
 
         <div class="hyodai">
@@ -38,8 +53,8 @@
 
 
           <div class="setsumei">
-          <p>このように、一日に必要なカロリーは決まっています。<br>
-          日々の摂取カロリーを守ることで、健康な身体をつくりましょう！</p>
+          <p>このように、一日に必要なカロリーは決まっています。</p>
+          <p>日々の摂取カロリーを守ることで、健康な身体をつくりましょう！</p>
           </div>
 
           </div>
@@ -57,5 +72,6 @@
         <a class ="btn twitter" href="#"><i class="fab fa-twitter"></i> Twitterでシェア</a>
       </footer>
 
+      <script src ="script.js"></script>
   </body>
 </html>
