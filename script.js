@@ -2,7 +2,7 @@ $(`#login-show`).click(function(){
   $(`#login-modal`).fadeIn();
 });
 
-$(`.shinki`).click(function(){
+$(`#signup-show`).click(function(){
   $(`#signup-modal`).fadeIn();
 });
 
