@@ -52,12 +52,14 @@ header a:hover{
 .haikei h1{
   padding-top: 250px;
   color: white;
+  margin-left: 40px;
   font-size: 40px;
   opacity: 0.8;
 }
 
 .haikei h2{
   color: white;
+  margin-left: 40px;
   font-size: 36px;
   opacity: 0.8;
 }
