@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>カロリー計算</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
 
@@ -14,13 +14,16 @@
     <a id = "login-show" class = "login" href="#">ログイン</a>
     </header>
 
-    <div id ="main-modal" class="modal">
-    <div id = "login-modal" class ="login-form">
+    <div id ="login-modal" class="login-form">
+    <div id = "main-modal" class ="modal">
       <h2>ログインフォーム</h2>
       <form class="" action="index.html" method="post">
       <input class ="inform" type="text" placeholder="メールアドレス">
       <input class ="inform" type="text" placeholder="パスワード">
-      <a id ="login-btn" class ="btn shinki" href="#">ログイン</a>
+      <a class ="btn shinki" href="#">ログイン</a>
+      <div class="close-form">
+        <a href="#"><i class="fas fa-times"></i></a>
+      </div>
       </form>
       </div>
     </div>
@@ -63,10 +66,24 @@
           <a class ="btn shinki" href="#">新規登録</a>
         </div>
 
+        <div id ="signup-modal" class="login-form">
+        <div id = "sainapp-modal" class ="modal">
+          <h2>新規登録フォーム</h2>
+          <form class="" action="index.html" method="post">
+          <input class ="inform" type="text" placeholder="メールアドレス">
+          <input class ="inform" type="text" placeholder="パスワード">
+          <a class ="btn shinki" href="#">ログイン</a>
+          <div class="close-form">
+            <a href="#"><i class="fas fa-times"></i></a>
+          </div>
+          </form>
+          </div>
+        </div>
+
       </div>
 
       <footer>
-        <img src="お茶碗と箸.png">
+        <img src="chawan.png">
         <h3>Produced by カロリー計算委員会</h3>
         <a class ="btn face" href="#"><i class="fab fa-facebook-f"></i> facebookでシェア</a>
         <a class ="btn twitter" href="#"><i class="fab fa-twitter"></i> Twitterでシェア</a>
