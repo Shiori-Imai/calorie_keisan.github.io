@@ -165,7 +165,7 @@ footer h3{
   width: 200px;
 }
 
-.modal{
+.login-form{
   position: fixed;
   top: 0;
   right: 0;
@@ -176,7 +176,7 @@ footer h3{
   display: none;
 }
 
-.login-form{
+.modal{
   position: absolute;
   top: 20%;
   left: 34%;
@@ -186,4 +186,19 @@ footer h3{
   width: 450px;
   height: auto;
   text-align: center;
+}
+
+.inform{
+  width: 60%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.fa-times{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
 }
