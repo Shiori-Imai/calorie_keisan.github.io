@@ -1,7 +1,12 @@
 $(`#login-show`).click(function(){
-  $(`#main-modal`).fadeIn();
+  $(`#login-modal`).fadeIn();
 });
 
-$(`#login-btn`).click(function(){
+$(`.shinki`).click(function(){
+  $(`#signup-modal`).fadeIn();
+});
+
+$(`.close-form`).click(function(){
   $(`#login-modal`).fadeOut();
+  $(`#signup-modal`).fadeOut();
 });
