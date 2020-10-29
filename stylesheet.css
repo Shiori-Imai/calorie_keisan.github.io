@@ -199,8 +199,8 @@ footer h3{
 
 .fa-times{
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 20px;
+  right: 20px;
   color: rgba(128, 128, 128, 0.46);
   cursor: pointer;
 }
